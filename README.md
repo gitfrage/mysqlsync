@@ -1,6 +1,8 @@
 # mysqlsync
 Fast Sync (LOAD DATA INFILE) multiple destination dbs with a source db
 
+```php
+
 <?php
 
 require('Timer.php');   // https://github.com/sebastianbergmann/php-timer
@@ -30,3 +32,5 @@ try {
 } catch (Exception $e) {
     print_r($e);
 }
+
+```
